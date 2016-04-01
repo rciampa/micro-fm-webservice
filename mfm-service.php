@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Author: Richard Damon Ciampa
+ * Author: Richard Damon Ciampa, Brandan Edward Lockwood
  * Date: 9/4/2015
  * Class: CST336
  * 
@@ -16,7 +16,7 @@
  */
 
 //SQL Connection      Host:port  User        Password           db
-$con = mysqli_connect(".:3306", "ciam1324", "23c160875b24d7f", "sLib_db");
+$con = mysqli_connect(".:3306", "", "", "");
 // Check connection
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
